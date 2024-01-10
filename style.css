@@ -155,8 +155,8 @@ img {
 }
 
 .chair {
-  /* box shadow takes 4-5 values. First one is the horizontal offset of the shadow. The second one is the same but for the vertical direction. The third one is responsible for the blure of the shadow (1 is almost no blure and the larger the value the bigger the blure. The fourth value is optional and it helps us the scale the shadow up (so the shadow gets longer. The last value is the color of the shadow*/
-  box-shadow: 10px 10px 30px 5px #495057;
+  /* box shadow takes 4-5 values. First one is the horizontal offset of the shadow. The second one is the same but for the vertical direction. The third one is responsible for the blure of the shadow (1 is almost no blure and the larger the value the bigger the blure. The fourth value is optional and it helps us the scale the shadow up (so the shadow gets longer on each side so its responsible for the radious. The last value is the color of the shadow (alpha value is typically needed to be set at 0.1 or less for the shodow to look natural*/
+  box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.07);
 }
 
 h3 {
