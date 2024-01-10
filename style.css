@@ -154,6 +154,11 @@ img {
   padding: 24px;
 }
 
+.chair {
+  /* box shadow takes 4-5 values. First one is the horizontal offset of the shadow. The second one is the same but for the vertical direction. The third one is responsible for the blure of the shadow (1 is almost no blure and the larger the value the bigger the blure. The fourth value is optional and it helps us the scale the shadow up (so the shadow gets longer. The last value is the color of the shadow*/
+  box-shadow: 10px 10px 30px 5px #495057;
+}
+
 h3 {
   margin-bottom: 24px;
   font-size: 20px;
